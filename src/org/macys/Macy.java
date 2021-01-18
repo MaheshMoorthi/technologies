@@ -21,10 +21,15 @@ import org.openqa.selenium.interactions.Actions;
 import com.sun.jdi.Method;
 
 public class Macy {
+	private void method1() {
+		System.out.println("branch1 modified");
+
+		}
 	private void Method2() {
 		System.out.println("branch2 modified");
 
 	}
+
 
 	public static void main(String[] args) throws InterruptedException, ParseException {
 		

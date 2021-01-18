@@ -18,11 +18,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import com.sun.jdi.Method;
+
 public class Macy {
 	private void method1() {
-	System.out.println("branch1 modified");
+		System.out.println("branch1 modified");
+
+		}
+	private void Method2() {
+		System.out.println("branch2 modified");
 
 	}
+
+
 	public static void main(String[] args) throws InterruptedException, ParseException {
 		
 		int count=0;

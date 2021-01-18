@@ -18,7 +18,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import com.sun.jdi.Method;
+
 public class Macy {
+	private void Method2() {
+		System.out.println("branch2 modified");
+
+	}
+
 	public static void main(String[] args) throws InterruptedException, ParseException {
 		
 		int count=0;
@@ -57,6 +64,9 @@ public class Macy {
 			l3.add(text);
 			
 		}
+		
+		
+		
 		List<Integer> A=new ArrayList<>();
 		
 		System.out.println("Above 4000 inr products prices are ");
